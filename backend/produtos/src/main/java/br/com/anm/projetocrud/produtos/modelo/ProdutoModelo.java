@@ -1,4 +1,4 @@
-package modelo;
+package br.com.anm.projetocrud.produtos.modelo;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -11,8 +11,9 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-@Table(name = "produtos")
-public class Produtomodelo {
+@Table(name = "Produtos")
+public class ProdutoModelo {
+  
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
   private Long codigo;
