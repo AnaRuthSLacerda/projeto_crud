@@ -10,5 +10,10 @@ import lombok.Setter;
 @Getter
 public class RespostaModelo {
   private String resposta;
-  
+
+  public void setMensagem(String string) {
+    // TODO Auto-generated method stub
+    throw new UnsupportedOperationException("Unimplemented method 'setMensagem'");
+  }
+
 }
